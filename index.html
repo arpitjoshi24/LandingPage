@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+      body{
+        background: url(https://www.shutterstock.com/image-illustration/raster-abstract-dark-blue-purple-600nw-351322337.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+  font-family: "PT Serif", serif;
+  
+      }
+      
+
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+    color: white;
+  background-color: #000000;
+  box-shadow: #000000 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+
+/* CSS */
+.button-92 {
+  --c: #fff;
+  /* text color */
+  background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    #004dff;
+  /* background color */
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+}
+
+.button-92:hover,
+.button-92:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
+
+.button-92:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9e9q #0005;
+  transition: 0s;
+}
+
+.button-92 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  cursor: pointer;
+  padding: .1em .3em;
+}
+
+
+
+/* CSS */
+.button-85 {
+  
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #2a176f;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+.input {
+  margin: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  max-width: 190px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  color: #fff;
+}
+
+textarea{
+  
+  background: none;
+  border: none;
+  outline: none;
+  
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 9999px;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #aa17ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #aa17ff;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #aa17ff;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+
+
+
+
+.hid{
+            opacity: 0;
+            filter: blur(5px);
+            transform: translateX(-100%);
+            transition: all 0.8s;
+        }
+      
+      
+        .sho{
+            opacity: 1;
+            filter: blur(0);
+            transform: translateX(0);
+        }
+.hidee{
+            opacity: 0;
+            filter: blur(5px);
+            transform: translateX(-100%);
+            transition: all 1.2s;
+        }
+      
+      
+        .showw{
+            opacity: 1;
+            filter: blur(0);
+            transform: translateX(0);
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <section class="hid" >
+        <div class=" container-fluid  mt-24  mx-4 sm:mx-12  bg-white bg-opacity-25 rounded-lg shadow-lg p-8">
+            <header class="hidee text-gray-600 body-font">
+                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                 
+                    
+                    <span   class="ml-3  text-white   text-3xl">Arpit</span>
+                  
+                  <nav class="md:ml-auto flex flex-wrap items-center sm:mt-0 mt-6  text-base justify-center">
+                    <a class="sm:mr-12 text-white hover:text-black hover:bg-white rounded-3xl  py-1 px-2 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">Home</a>
+                    <a class="sm:mr-12 text-white hover:text-black hover:bg-white rounded-3xl  py-1 px-2 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">carrers</a>
+                    <a class="sm:mr-12 text-white hover:text-black hover:bg-white rounded-3xl  py-1 px-2 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">Blog</a>
+                    <a class="sm:mr-12 text-white  hover:text-black hover:bg-white rounded-3xl  py-1 px-2 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">About Us</a>
+                  </nav>
+                  <button class="inline-flex sm:mr-10 button-73 text-base py-1 px-3  items-center mt-4 md:mt-0">login 
+                  </button>
+                  <button class="inline-flex  button-73 items-center  py-1 px-3    text-base mt-4  md:mt-0">Sign Up
+                  </button>
+                </div>
+              </header>
+
+         <!-- home -->
+         <div>
+          <section class="text-white body-font hidee">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-white " >Learn new skills Online</h1>
+                <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-white " id="typewriter">
+                  
+                </h1>
+                <p class="mb-8  leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <div class="flex justify-center sm:ml-56 sm:mt-6">
+                  <button class="inline-flex   border-0 py-2 px-6  button-92 rounded text-lg">Try it now</button>
+                  
+                </div>
+              </div>
+              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="pngtree-study-by-reading-books-indonesian-national-education-day-png-image_6154702-removebg-preview.png">
+              </div>
+            </div>
+          </section>
+         </div>
+          
+
+         <!-- home2 -->
+         <section class="text-white body-font hidee">
+          <div class="container px-5 py-24 mx-auto ">
+            <div class=" sm:ml-44 flex flex-wrap -m-4  gap-24">
+              <div class=" lg:w-1/4 lg:mb-0 mb-6 p-4 border border-1 border-black button-85 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">
+                <div class="h-full text-center">
+                  <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://t3.ftcdn.net/jpg/05/46/21/88/360_F_546218863_6pZZf53DrblGWh204zv2z5GTgfWNsk6w.jpg">
+                  <h2 class="text-white font-medium title-font tracking-wider text-lg">Simple courses</h2>
+                  <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                  <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                  
+                </div>
+              </div>
+              <div class="lg:w-1/4 lg:mb-0 mb-6 p-4 border border-1 border-black button-85 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">
+                <div class="h-full text-center">
+                  <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://cdn-icons-png.flaticon.com/512/6469/6469169.png">
+                  <h2 class="text-white text-bold font-medium title-font tracking-wider text-lg">Top Educators</h2>
+                  <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                  <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                 
+                </div>
+              </div>
+              <div class="lg:w-1/4 lg:mb-0 p-4 border border-1 border-black button-85 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">
+                <div class="h-full text-center">
+                  <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://cdn.iconscout.com/icon/free/png-256/free-document-1439229-1214239.png">
+                  <h2 class="text-white font-medium title-font tracking-wider text-lg">Top courses</h2>
+                  <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                  <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+          <!-- classroom -->
+          <div class="hidee" >
+              <h1 class="text-center mt-32 text-5xl text-white  ">Our Classroom</h1>
+              <p class="text-center mt-4  text-white ">Lorem ipsum, dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor..</p>
+              <p class="text-center mt-1  text-white ">Lorem, ipsum dolor.</p>
+              <section class="text-gray-600 body-font">
+                <div class="container px-5 py-6 mx-auto">
+                  <div class="text-center mb-16">
+                    
+                    <div class="flex mt-6 justify-center">
+                      <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+                    </div>
+                  </div>
+                  <div class="flex  flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                    <div class="p-4  md:w-1/3 flex flex-col text-center items-center">
+                      <div class="w-20 h-20 inline-flex items-center justify-center button-85 rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <img src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-blue-ebook-icon-image_1171513.jpg" alt="">
+                      </div>
+                      <div class="flex-grow ">
+                        <h2 class="text-white  title-font text-2xl font-medium mb-3  ">E-books</h2>
+                        <p class="leading-relaxed text-white text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub  .</p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center text-4xl" id="value">100 
+                        </a>
+                        <span class="mt-3 text-indigo-500 inline-flex items-center text-4xl">+</span>
+                      </div>
+                    </div>
+                    <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                      <div class="w-20 h-20 inline-flex items-center button-85 justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <img src="https://img.lovepik.com/free-png/20211103/lovepik-medical-list-png-image_400254784_wh1200.png" alt="">
+                      </div>
+                      <div class="flex-grow">
+                        <h2 class="text-white   title-font text-2xl font-medium mb-3">High quality topics</h2>
+                        <p class="leading-relaxed text-white text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub .</p>
+                        <a class="mt-3 text-indigo-500 inline-flex  items-center text-4xl" id="val">400 
+                        </a>
+                        <span class="mt-3 text-indigo-500 inline-flex items-center text-4xl">+</span>
+                      </div>
+                    </div>
+                    <div class="p-4  md:w-1/3 flex flex-col text-center items-center">
+                      <div class="w-20 h-20 inline-flex items-center button-85 justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <img src="https://e7.pngegg.com/pngimages/152/641/png-clipart-computer-icons-expert-icon-education-group-digital-marketing-others-miscellaneous-service-thumbnail.png" alt="">
+                      </div>
+                      <div class="flex-grow">
+                        <h2 class="text-white  title-font text-2xl font-medium mb-3">Experts Educator</h2>
+                        <p class="leading-relaxed text-white text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub  .</p>
+                        <a class="mt-3 text-indigo-500 inline-flex items-center text-4xl" id="valu">50 
+                        </a>
+                        <span class="mt-3 text-indigo-500 inline-flex items-center text-4xl">+</span>
+                      </div>
+                    </div>
+                   
+                  </div>
+                  
+                </div>
+              </section>
+           
+          </div>
+          <!-- contact -->
+          <section class="text-white body-font relative hidee">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-12">
+                <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
+                <p class="lg:w-2/3 sm:text-xl mx-auto leading-relaxed text-base">Need to get in touch with us? Fill out the form with your inquery</p>
+              </div>
+              <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap sm:m-2">
+                  <div class="p-2 sm:w-1/2">
+                    <div class="relative">
+                      <label for="name" class="leading-7 text-sm text-white">Name</label>
+                      <input type="text" id="name" name="name" class="w-full input bg-gray-100 bg-opacity-50 rounded border border-gray-300  text-base outline-none text-white py-1 px-3 leading-8 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">
+                    </div>
+                  </div>
+                  <div class="p-2 sm:w-1/2">
+                    <div class="relative">
+                      <label for="email" class="leading-7  text-sm text-white">Email</label>
+                      <input type="email" id="email" name="email" class="w-full input bg-gray-100 bg-opacity-50 rounded border border-gray-300  text-base outline-none text-white py-1 px-3 leading-8 sm:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110">
+                    </div>
+                  </div>
+                  <div class="p-2 w-full">
+                    <div class="relative">
+                      <label for="message" class="leading-7 text-sm text-white">Message</label>
+                      <textarea id="message" name="message" class="w-full mt-6 bg-gray-100  bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500    h-32  py-1 px-3 resize-none leading-6 m:transition sm:ease-in-out sm:delay-100  sm:hover:-translate-y-1 sm:hover:scale-110"></textarea>
+                    </div>
+                  </div>
+                  <div class="p-2 w-full">
+                    <button class=" button-56   flex mx-auto  py-2  rounded text-lg">Submit</button>
+                  </div>
+                  <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                    <a class="text-indigo-500">Arpitjoshi564@gmail.com</a>
+                    <p class="leading-normal my-5">49 Smith St.
+                      <br>Saint Cloud, MN 56301
+                    </p>
+                    <span class="inline-flex">
+                      <a class="text-white">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-4 text-white">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-4 text-white">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-4 text-white">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer class="text-gray-600  body-font">
+              <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                 
+                  <span class="ml-3 text-white   text-xl">Arpit</span>
+                </a>
+                <p class="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 text-white  sm:py-2 sm:mt-0 mt-4">© 2024 Arpitjoshi —
+                  
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                  
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </footer>
+          </section>
+          </div>
+
+    </section>
+
+
+    <script>
+
+       
+
+        const observer = new IntersectionObserver((entries)=>{
+            entries.forEach((entry)=>{
+                console.log(entry)
+                if(entry.isIntersecting){
+                    entry.target.classList.add('sho');
+                }else{
+                    entry.target.classList.remove('sho');
+                }
+            });
+        })
+        const hiddenElements = document.querySelectorAll('.hid');
+        hiddenElements.forEach((el)=> observer.observe(el));
+
+
+        const observe = new IntersectionObserver((entries)=>{
+            entries.forEach((entry)=>{
+                console.log(entry)
+                if(entry.isIntersecting){
+                    entry.target.classList.add('showw');
+                }else{
+                    entry.target.classList.remove('showw');
+                }
+            });
+        })
+        const hideelement = document.querySelectorAll('.hidee');
+        hideelement.forEach((el)=> observe.observe(el));
+
+        
+// new
+
+
+  // jq      
+  function animateValue(obj, start, end, duration) {
+  let startTimestamp = null;
+  const step = (timestamp) => {
+    if (!startTimestamp) startTimestamp = timestamp;
+    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+    obj.innerHTML = Math.floor(progress * (end - start) + start);
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    }
+  };
+  window.requestAnimationFrame(step);
+}
+
+const obj = document.getElementById("value");
+
+// Function to handle visibility change
+const handleVisibilityChange = (entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Element is visible
+      animateValue(obj, 0, 100, 5000);
+      // Unobserve the target element since animation is triggered
+      observer.unobserve(entry.target);
+    }
+  });
+};
+
+// Create an intersection observer instance
+const obser = new IntersectionObserver(handleVisibilityChange, {
+  root: null, // Use the viewport as the root
+  rootMargin: '0px', // No margin
+  threshold: 0 // Fully visible
+});
+
+// Start observing the target element
+obser.observe(obj);
+
+
+
+
+
+
+        // stat2
+
+
+        function animateValue(obj, start, end, duration) {
+  let startTimestamp = null;
+  const step = (timestamp) => {
+    if (!startTimestamp) startTimestamp = timestamp;
+    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+    obj.innerHTML = Math.floor(progress * (end - start) + start);
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    }
+  };
+  window.requestAnimationFrame(step);
+}
+
+const obje = document.getElementById("val");
+
+// Function to handle visibility change
+const handleVisibilityChangee = (entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Element is visible
+      animateValue(obje, 0, 200, 5000);
+      // Unobserve the target element since animation is triggered
+      observer.unobserve(entry.target);
+    }
+  });
+};
+
+// Create an intersection observer instance
+const observerr = new IntersectionObserver(handleVisibilityChangee, {
+  root: null, // Use the viewport as the root
+  rootMargin: '0px', // No margin
+  threshold: 0 // Fully visible
+});
+
+// Start observing the target element
+observerr.observe(obje);
+
+
+        // stat
+        function animateValue(obj, start, end, duration) {
+  let startTimestamp = null;
+  const step = (timestamp) => {
+    if (!startTimestamp) startTimestamp = timestamp;
+    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+    obj.innerHTML = Math.floor(progress * (end - start) + start);
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    }
+  };
+  window.requestAnimationFrame(step);
+}
+
+const object = document.getElementById("valu");
+
+// Function to handle visibility change
+const handleVisibilityChan = (entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Element is visible
+      animateValue(object, 0, 50, 5000);
+      // Unobserve the target element since animation is triggered
+      obse.unobserve(entry.target);
+    }
+  });
+};
+
+// Create an intersection observer instance
+const obse = new IntersectionObserver(handleVisibilityChan, {
+  root: null, // Use the viewport as the root
+  rootMargin: '0px', // No margin
+  threshold: 0 // Fully visible
+});
+
+// Start observing the target element
+obse.observe(object);
+
+        
+
+
+// typewriter
+const text = "With Top Educators";
+let index = 0;
+const typewriter = () => {
+    if (index < text.length) {
+        // Clear the content of the #typewriter element before adding the next character
+        document.getElementById("typewriter").innerHTML = text.substring(0, index + 1);
+        index++;
+        setTimeout(typewriter, 100);
+    } else {
+        // Reset index to 0 when the end of the text is reached
+        index = 0;
+        // Call typewriter again after a delay to create a loop
+        setTimeout(typewriter, 1000); // Adjust delay as needed
+    }
+}
+
+// Initial call to start the typewriter effect
+typewriter();
+    </script>
+</body>
+</html>
